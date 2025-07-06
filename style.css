@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: #ff9aa2;
+  padding: 20px 0;
+}
+
+header h1 {
+  float: left;
+  margin-left: 20px;
+  color: #fff;
+}
+
+nav {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #ffb6b9;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills-list li {
+  background: #fcefee;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #fff3f3;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 300px;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #ff9aa2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  background: #ffd3b6;
+  text-align: center;
+  padding: 20px;
+}
+#about{
+    background-image: url(WhatsApp\ Image\ 2025-07-06\ at\ 09.54.44_94e13e8f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}img{
+    width: 90px;
+}
+.epic {
+    background-image: url(WhatsApp\ Image\ 2025-07-06\ at\ 09.54.44_94e13e8f.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 200px;
+   
+
+}
