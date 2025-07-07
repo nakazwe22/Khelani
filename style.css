@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background: #ff9aa2;
+  background: blue;
   padding: 20px 0;
 }
 
@@ -40,6 +40,8 @@ nav ul {
 nav ul li {
   display: inline;
   margin-left: 20px;
+  border-bottom: 8px solid red;
+  font-size: 22px;
 }
 
 nav ul li a {
@@ -48,7 +50,7 @@ nav ul li a {
 }
 
 .hero {
-  background-color: #ffb6b9;
+  background: linear-gradient(to left, blue, pink);
   color: #fff;
   text-align: center;
   padding: 100px 20px;
@@ -106,20 +108,4 @@ footer {
   background: #ffd3b6;
   text-align: center;
   padding: 20px;
-}
-#about{
-    background-image: url(WhatsApp\ Image\ 2025-07-06\ at\ 09.54.44_94e13e8f.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}img{
-    width: 90px;
-}
-.epic {
-    background-image: url(WhatsApp\ Image\ 2025-07-06\ at\ 09.54.44_94e13e8f.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 200px;
-   
-
 }
